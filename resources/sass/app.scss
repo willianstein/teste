@@ -1,0 +1,29 @@
+// Import Custom SB Admin 2 Variables (Overrides Default Bootstrap Variables)
+@import "./sb-admin/variables.scss";
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+@import "~@fortawesome/fontawesome-free/css/all.min.css";
+@import "~datatables.net-bs4/css/dataTables.bootstrap4.min.css";
+@import "../css/all.css";
+@import "~bootstrap-datepicker/dist/css/bootstrap-datepicker.min.css";
+
+// Import Custom SB Admin 2 Mixins and Components
+@import "./sb-admin/mixins.scss";
+@import "./sb-admin/global.scss";
+@import "./sb-admin/utilities.scss";
+
+// Custom Components
+@import "./sb-admin/dropdowns.scss";
+@import "./sb-admin/navs.scss";
+@import "./sb-admin/buttons.scss";
+@import "./sb-admin/cards.scss";
+@import "./sb-admin/charts.scss";
+@import "./sb-admin/login.scss";
+@import "./sb-admin/error.scss";
+@import "./sb-admin/footer.scss";
+
+
+
+@import "../css/sb-admin/sb-admin-2.min.css";
+@import "~sweetalert2/dist/sweetalert2.min.css";
